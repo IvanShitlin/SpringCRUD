@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post">
+    <fieldset>
+        <div>
+            <label for="id">ID</label> <input type="text" id="id"
+                                                   name="id" th:value="${user.id}"
+                                                   readonly="readonly" />
+        </div>
+        <div>
+            <label for="name">Username</label> <input type="text" id="name"
+                                                       name="name" th:value="${user.name}"
+        />
+        </div>
+        <div>
+            <label for="password">Password</label> <input type="text" id="password"
+                                                          name="password" th:value = "${user.password}"
+        />
+        </div>
+        <input type="submit" value="Submit" />
+    </fieldset>
+</form>
+</body>
+</html>
