@@ -1,4 +1,4 @@
-package ru.bootcamp.springboot.service;
+package ru.shitlin.springboot.service;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

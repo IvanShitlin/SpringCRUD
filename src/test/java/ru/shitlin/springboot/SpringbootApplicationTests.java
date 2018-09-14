@@ -1,4 +1,4 @@
-package ru.bootcamp.springboot;
+package ru.shitlin.springboot;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

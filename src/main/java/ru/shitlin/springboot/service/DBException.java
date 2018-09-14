@@ -1,4 +1,4 @@
-package ru.bootcamp.springboot.service;
+package ru.shitlin.springboot.service;
 
 /**
  * @author v.chibrikov

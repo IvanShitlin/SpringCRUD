@@ -1,11 +1,11 @@
-package ru.bootcamp.springboot.service;
+package ru.shitlin.springboot.service;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.bootcamp.springboot.dao.RoleDAO;
-import ru.bootcamp.springboot.model.Role;
-import ru.bootcamp.springboot.service.abstract_srv.RoleService;
+import ru.shitlin.springboot.dao.RoleDAO;
+import ru.shitlin.springboot.model.Role;
+import ru.shitlin.springboot.service.abstract_srv.RoleService;
 
 @Service
 public class RoleServiceImpl implements RoleService {

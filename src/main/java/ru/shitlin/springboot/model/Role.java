@@ -1,10 +1,8 @@
-package ru.bootcamp.springboot.model;
+package ru.shitlin.springboot.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.security.core.GrantedAuthority;
 
 import javax.persistence.*;
-import java.util.List;
 
 
 @Entity

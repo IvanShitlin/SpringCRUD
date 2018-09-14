@@ -1,11 +1,9 @@
-package ru.bootcamp.springboot.model;
+package ru.shitlin.springboot.model;
 
-import org.hibernate.annotations.Cascade;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.util.Collection;
 import java.util.Set;
 

@@ -1,11 +1,11 @@
-package ru.bootcamp.springboot.service;
+package ru.shitlin.springboot.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
-import ru.bootcamp.springboot.model.Role;
-import ru.bootcamp.springboot.model.User;
-import ru.bootcamp.springboot.service.abstract_srv.RoleService;
-import ru.bootcamp.springboot.service.abstract_srv.UserService;
+import ru.shitlin.springboot.model.Role;
+import ru.shitlin.springboot.model.User;
+import ru.shitlin.springboot.service.abstract_srv.RoleService;
+import ru.shitlin.springboot.service.abstract_srv.UserService;
 
 import java.util.HashSet;
 import java.util.Set;

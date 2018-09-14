@@ -1,7 +1,7 @@
-package ru.bootcamp.springboot.service.abstract_srv;
+package ru.shitlin.springboot.service.abstract_srv;
 
 
-import ru.bootcamp.springboot.model.Role;
+import ru.shitlin.springboot.model.Role;
 
 public interface RoleService {
     Role getRoleByName(String roleName);

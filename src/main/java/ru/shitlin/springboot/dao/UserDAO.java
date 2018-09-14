@@ -1,7 +1,7 @@
-package ru.bootcamp.springboot.dao;
+package ru.shitlin.springboot.dao;
 
 
-import ru.bootcamp.springboot.model.User;
+import ru.shitlin.springboot.model.User;
 
 import java.util.List;
 

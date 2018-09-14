@@ -1,6 +1,6 @@
-package ru.bootcamp.springboot.dao;
+package ru.shitlin.springboot.dao;
 
-import ru.bootcamp.springboot.model.Role;
+import ru.shitlin.springboot.model.Role;
 
 public interface RoleDAO {
     Role getRoleByName(String roleName);

@@ -1,4 +1,4 @@
-package ru.bootcamp.springboot.security;
+package ru.shitlin.springboot.security;
 
 
 import org.springframework.security.core.Authentication;
@@ -8,7 +8,7 @@ import org.springframework.security.web.RedirectStrategy;
 import org.springframework.security.web.WebAttributes;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.stereotype.Service;
-import ru.bootcamp.springboot.model.Role;
+import ru.shitlin.springboot.model.Role;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

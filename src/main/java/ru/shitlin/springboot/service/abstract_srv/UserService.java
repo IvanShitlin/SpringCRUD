@@ -1,8 +1,8 @@
-package ru.bootcamp.springboot.service.abstract_srv;
+package ru.shitlin.springboot.service.abstract_srv;
 
 
 
-import ru.bootcamp.springboot.model.User;
+import ru.shitlin.springboot.model.User;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package ru.bootcamp.springboot.security;
+package ru.shitlin.springboot.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

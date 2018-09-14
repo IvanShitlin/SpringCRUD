@@ -1,8 +1,8 @@
-package ru.bootcamp.springboot.dao;
+package ru.shitlin.springboot.dao;
 
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-import ru.bootcamp.springboot.model.Role;
+import ru.shitlin.springboot.model.Role;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
