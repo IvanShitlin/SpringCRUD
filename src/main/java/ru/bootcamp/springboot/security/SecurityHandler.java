@@ -39,17 +39,17 @@ public class SecurityHandler implements AuthenticationSuccessHandler {
 
     protected String determineTargetUrl(Authentication authentication) {
         Collection<? extends GrantedAuthority> authorities = authentication.getAuthorities();
-        /**
+        /*
          * Если коллекция ролей у юзера содержит роль ADMIN - отправляет на url /admin
          */
         Role admin = new Role("ADMIN");
         if (authorities.contains(admin)){
             return "/admin";
-        } else if (authorities.contains(new Role("USER"))) {/**Если коллекция ролей у юзера не содержит роль ADMIN , но содержит роль USER - отправляет на url /user
+        } else if (authorities.contains(new Role("USER"))) {/*Если коллекция ролей у юзера не содержит роль ADMIN , но содержит роль USER - отправляет на url /user
          */
             return "/user";
         } else {
-            throw new IllegalStateException(); /** Если не содержит ни одну из указанных ролей - бросает исключение **/
+            throw new IllegalStateException(); /* Если не содержит ни одну из указанных ролей - бросает исключение **/
         }
     }
 

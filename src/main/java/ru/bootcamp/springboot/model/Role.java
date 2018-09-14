@@ -16,20 +16,6 @@ public class Role implements GrantedAuthority {
     @Column(unique = true, length = 100)
     private String role;
 
-////    @ManyToMany(fetch = FetchType.EAGER, targetEntity = User.class, cascade = CascadeType.ALL)
-////    @JoinTable(name = "users_roles",
-////            joinColumns = {@JoinColumn(name = "role_id")},
-////            inverseJoinColumns = {@JoinColumn(name = "user_id")})
-////    private List<User> users;
-////    @JsonIgnore
-////    public List<User> getUsers() {
-////        return users;
-////    }
-//
-//    public void setUsers(List<User> users) {
-//        this.users = users;
-//    }
-
     public long getId() {
         return id;
     }

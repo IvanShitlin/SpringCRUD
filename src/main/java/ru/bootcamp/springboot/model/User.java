@@ -30,12 +30,9 @@ public class User implements UserDetails { // Serializable Important to Hibernat
             inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles;
 
-
-
     public User() {}
 
     public User(String name, String password) {
-        //this.setId(1);
         this.setName(name);
         this.setPassword(password);
     }
@@ -61,10 +58,7 @@ public class User implements UserDetails { // Serializable Important to Hibernat
         return roles;
     }
 
-    public String getPassword() {
-
-        return password;
-    }
+    public String getPassword() { return password; }
 
     @Override
     public String getUsername() {
